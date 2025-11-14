@@ -1,0 +1,268 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Montserrat', Arial, sans-serif;
+	color: #000;
+}
+ul,
+ol,
+li,
+a {
+	list-style: none;
+	text-decoration: none;
+}
+
+.container {
+	max-width: 1290px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+.shirt {
+	padding-top: 20px;
+	padding-bottom: 35px;
+}
+.shirt__container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 40px;
+}
+.shirt__info {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 14px;
+}
+.shirt__info-list {
+	max-width: 152px;
+	width: 100%;
+}
+.shirt__info-list-item:not(:last-child) {
+	margin-bottom: 14px;
+}
+.shirt__info-list-item-link-img {
+	width: 152px;
+	height: 167px;
+}
+.shirt__info-img {
+	width: 444px;
+	height: 530px;
+}
+.shirt__wrapper {
+	max-width: 600px;
+	width: 100%;
+}
+.shirt__wrapper-title {
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 100%;
+	letter-spacing: 0%;
+	margin-bottom: 14px;
+}
+.shirt__wrapper-star {
+	display: flex;
+	align-items: center;
+	margin-bottom: 14px;
+}
+.shirt__wrapper-star-img {
+	width: 139px;
+	height: 24px;
+	margin-right: 16px;
+}
+.shirt__wrapper-star-text {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 100%;
+	letter-spacing: 0%;
+}
+.shirt__wrapper-star-text span {
+	color: #00000099;
+}
+.shirt__wrapper-price {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	margin-bottom: 20px;
+}
+.shirt__wrapper-price-title {
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 100%;
+	letter-spacing: 0%;
+}
+.shirt__wrapper-price-title span {
+	color: #0000004d;
+	text-decoration: line-through;
+	text-decoration-color: #0000004d;
+}
+.shirt__wrapper-price-text {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 100%;
+	letter-spacing: 0%;
+	color: #ff3333;
+	padding: 6px 14px;
+	background: #ff33331a;
+	border-radius: 62px;
+	max-width: 72px;
+	width: 100px;
+}
+.shitr__wrapper-text {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 22px;
+	letter-spacing: 0%;
+	color: #00000099;
+	border-bottom: 1px solid #0000001a;
+	padding-bottom: 24px;
+	margin-bottom: 24px;
+}
+
+.shirt__wrapper-title2 {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 100%;
+	letter-spacing: 0%;
+	color: #00000099;
+	margin-bottom: 16px;
+}
+.shirt__wrapper-list {
+	display: flex;
+	align-items: center;
+	gap: 16px;
+	padding-bottom: 24px;
+	margin-bottom: 24px;
+	border-bottom: 1px solid #0000001a;
+}
+.item {
+	width: 37px;
+	height: 37px;
+	border-radius: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+}
+.shirt__wrapper-list-item1 {
+	background-color: #4f4631;
+}
+.shirt__wrapper-list-item2 {
+	background-color: #314f4a;
+}
+.shirt__wrapper-list-item3 {
+	background-color: #31344f;
+}
+.shirt__wrapper-list-item-img {
+	width: 16px;
+	height: 16px;
+}
+.shirt__wrapper-title3 {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 100%;
+	letter-spacing: 0%;
+	color: #00000099;
+	margin-bottom: 16px;
+}
+.shirt__wrapper-size {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	margin-bottom: 24px;
+	padding-bottom: 24px;
+	border-bottom: 1px solid #0000001a;
+}
+.shirt__wrapper-size-item {
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 100%;
+	letter-spacing: 0%;
+	padding: 12px 24px;
+	background-color: #f0f0f0;
+	border-radius: 62px;
+	cursor: pointer;
+}
+.small {
+	max-width: 86px;
+	width: 100%;
+}
+.medium {
+	max-width: 105px;
+	width: 100%;
+}
+.large {
+	max-width: 89px;
+	width: 100%;
+}
+.x-large {
+	max-width: 104px;
+	width: 100%;
+}
+.shirt__wrapper-bottom {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 20px;
+}
+.shirt__wrapper-bottom-number {
+	max-width: 170px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 14px 20px;
+	background-color: #f0f0f0;
+	border-radius: 62px;
+	gap: 38px;
+}
+.shirt__wrapper-bottom-number-minus {
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+}
+.shirt__wrapper-bottom-number-minus-img {
+	width: 24px;
+	height: 24px;
+}
+.shirt__wrapper-bottom-number-title {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 100%;
+	letter-spacing: 0%;
+}
+.shirt__wrapper-bottom-number-plus {
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+}
+.shirt__wrapper-bottom-number-plus-img {
+	width: 24px;
+	height: 24px;
+}
+.shirt__wrapper-bottom-btn {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 100%;
+	letter-spacing: 0%;
+	color: #ffffff;
+	background-color: #000000;
+	width: 400px;
+	width: 100%;
+	border-radius: 62px;
+	border: 1px solid #000;
+	padding: 15px;
+	cursor: pointer;
+	transition: all 0.4s ease;
+}
+
+.shirt__wrapper-bottom-btn:hover {
+	background-color: #fff;
+	color: #000;
+	opacity: 0.6s;
+}
