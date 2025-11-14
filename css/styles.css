@@ -113,7 +113,7 @@ a {
 	max-width: 72px;
 	width: 100px;
 }
-.shitr__wrapper-text {
+.shirt__wrapper-text {
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 22px;
@@ -416,7 +416,7 @@ a {
 		font-size: 26px;
 	}
 
-	.shitr__wrapper-text {
+	.shirt__wrapper-text {
 		font-size: 15px;
 	}
 }
@@ -500,7 +500,7 @@ a {
 		font-size: 20px;
 	}
 
-	.shitr__wrapper-text {
+	.shirt__wrapper-text {
 		font-size: 14px;
 		line-height: 20px;
 	}
