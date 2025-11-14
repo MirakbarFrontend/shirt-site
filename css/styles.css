@@ -187,6 +187,7 @@ a {
 	background-color: #f0f0f0;
 	border-radius: 62px;
 	cursor: pointer;
+	white-space: nowrap;
 }
 .small {
 	max-width: 86px;
@@ -265,4 +266,256 @@ a {
 	background-color: #fff;
 	color: #000;
 	opacity: 0.6s;
+}
+/* ===========================
+   1200px — Large Desktop / Small Laptop
+   Layout siqilmasligi uchun optimallashtirilgan
+=========================== */
+@media (max-width: 1200px) {
+	.container {
+		max-width: 1100px;
+	}
+
+	.shirt__container {
+		gap: 30px;
+	}
+
+	/* Chap tomondagi kichik rasmlar */
+	.shirt__info-list-item-link-img {
+		width: 135px;
+		height: auto;
+	}
+
+	/* Katta rasm biroz moslashadi */
+	.shirt__info-img {
+		width: 410px;
+		height: auto;
+	}
+
+	/* O'ng tomondagi matn kengligi moslashadi */
+	.shirt__wrapper {
+		max-width: 520px;
+	}
+
+	.shirt__wrapper-title {
+		font-size: 36px;
+	}
+
+	.shirt__wrapper-price-title {
+		font-size: 30px;
+	}
+
+	.shirt__wrapper-bottom-btn {
+		font-size: 16px;
+	}
+}
+
+/* ===========================
+   1024px — Laptop
+=========================== */
+@media (max-width: 1050px) {
+	.shirt__container {
+		gap: 30px;
+	}
+
+	.shirt__info-img {
+		width: 380px;
+		height: auto;
+	}
+
+	.shirt__wrapper-title {
+		font-size: 34px;
+	}
+}
+
+/* ===========================
+   900px — Tablet Horizontal
+=========================== */
+@media (max-width: 900px) {
+	.shirt__container {
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.shirt__info {
+		flex-direction: column;
+	}
+
+	.shirt__info-list {
+		gap: 15px;
+		display: flex;
+		justify-content: center;
+		max-width: 100%;
+	}
+
+	.shirt__info-list-item {
+		margin-bottom: 0 !important;
+	}
+
+	.shirt__info-list-item-link-img {
+		width: 110px;
+		height: auto;
+	}
+
+	.shirt__info-img {
+		width: 360px;
+		height: auto;
+	}
+
+	.shirt__wrapper {
+		max-width: 100%;
+	}
+	.shirt__wrapper-star {
+		justify-content: center;
+	}
+	.shirt__wrapper-price {
+		justify-content: center;
+	}
+	.shirt__wrapper-list {
+		justify-content: center;
+	}
+	.shirt__wrapper-size {
+		justify-content: center;
+	}
+}
+
+/* ===========================
+   768px — Tablet Vertical
+=========================== */
+@media (max-width: 768px) {
+	.shirt__wrapper-title {
+		font-size: 30px;
+	}
+
+	.shirt__wrapper-price-title {
+		font-size: 28px;
+	}
+
+	.shirt__wrapper-bottom-btn {
+		width: 100%;
+	}
+}
+
+/* ===========================
+   576px — Large Mobile
+=========================== */
+@media (max-width: 576px) {
+	.shirt {
+		padding-top: 0;
+	}
+
+	.shirt__info-list-item-link-img {
+		width: 90px;
+	}
+
+	.shirt__info-img {
+		width: 300px;
+	}
+
+	.shirt__wrapper-title {
+		font-size: 26px;
+	}
+
+	.shitr__wrapper-text {
+		font-size: 15px;
+	}
+}
+
+/* ===========================
+   480px — Medium Mobile
+=========================== */
+@media (max-width: 480px) {
+	.shirt__info-img {
+		width: 260px;
+	}
+
+	.shirt__wrapper-size {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.shirt__wrapper-bottom {
+		flex-direction: column;
+		gap: 14px;
+	}
+
+	.shirt__wrapper-bottom-number {
+		max-width: 100%;
+	}
+}
+
+/* ===========================
+   375px — iPhone 11/12/13/14
+=========================== */
+@media (max-width: 375px) {
+	.shirt__info-list-item-link-img {
+		width: 75px;
+	}
+
+	.shirt__info-img {
+		width: 230px;
+	}
+
+	.shirt__wrapper-title {
+		font-size: 22px;
+	}
+
+	.shirt__wrapper-price-title {
+		font-size: 24px;
+	}
+
+	.shirt__wrapper-list {
+		gap: 12px;
+	}
+
+	.item {
+		width: 32px;
+		height: 32px;
+	}
+
+	.shirt__wrapper-size-item {
+		padding: 10px 20px;
+		font-size: 14px;
+	}
+}
+
+/* ===========================
+   320px — Smallest Mobile
+   Super clean layout
+=========================== */
+@media (max-width: 320px) {
+	.container {
+		padding: 0 10px;
+	}
+
+	.shirt__info-list-item-link-img {
+		width: 65px;
+	}
+
+	.shirt__info-img {
+		width: 200px;
+	}
+
+	.shirt__wrapper-title {
+		font-size: 20px;
+	}
+
+	.shitr__wrapper-text {
+		font-size: 14px;
+		line-height: 20px;
+	}
+
+	.shirt__wrapper-price-title {
+		font-size: 22px;
+	}
+
+	.shirt__wrapper-bottom-number {
+		padding: 12px 16px;
+		gap: 26px;
+	}
+
+	.shirt__wrapper-bottom-btn {
+		font-size: 15px;
+		padding: 12px;
+	}
 }
