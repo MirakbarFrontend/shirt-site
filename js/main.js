@@ -133,3 +133,37 @@ sizeButtons.forEach(btn => {
 		mainImg.style.transform = `scale(${scale})`;
 	});
 });
+const colorItems = document.querySelectorAll('.shirt__wrapper-list .item');
+
+// Avval barcha ptichkalarni yashiramiz
+colorItems.forEach((item, index) => {
+	const img = item.querySelector('img');
+
+	if (index === 0) {
+		// faqat 1-chi elementda ptichka ko‘rinadi
+		img.style.opacity = '1';
+		img.style.transform = 'scale(1)';
+	} else {
+		img.style.opacity = '0';
+		img.style.transform = 'scale(0.5)';
+	}
+
+	img.style.transition = 'all 0.25s ease';
+});
+
+// Bosilganda almashtirish
+colorItems.forEach(item => {
+	item.addEventListener('click', () => {
+		// Barchasini yashiramiz
+		colorItems.forEach(i => {
+			const img = i.querySelector('img');
+			img.style.opacity = '0';
+			img.style.transform = 'scale(0.5)';
+		});
+
+		// Bosilganiga chiqaramiz
+		const activeImg = item.querySelector('img');
+		activeImg.style.opacity = '1';
+		activeImg.style.transform = 'scale(1)';
+	});
+});
