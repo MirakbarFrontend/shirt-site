@@ -401,7 +401,7 @@ a {
 =========================== */
 @media (max-width: 576px) {
 	.shirt {
-		padding-top: 0;
+		padding-top: 10px;
 	}
 
 	.shirt__info-list-item-link-img {
